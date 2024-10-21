@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.webucator.com/materials/htm101/" method="post">
+
+        <label for="username">User name:</label>
+        <input type="text" name="username" id="username">
+    
+        <br>
+    
+        <label for="password">Password</label>
+        <input type="password" name="pw" id="pw">
+    
+        <br>
+
+        <label for="Gender">Gender:</label>
+
+        <input type="radio" name="Gender" id="genderm" value="m">
+        <label for="Gender">Male</label>
+        <input type="radio" name="Gender" id=" genderf" value="f">
+        <label for="Gender">Female</label>
+
+        <br>
+
+        <label for="terms">Click to accept our terms: </label>
+        <input type="checkbox" name="terms" id="terms">
+
+        <br>
+
+        <label for="referral">Where did you hear about us?</label>
+        <select name="referral" id="referral">
+            <option value="0">--Please choose--</option>
+            <option value="wom">Word of Mouth</option>
+            <optgroup>
+                <option value="Google">Google</option>
+                <option value="Yahoo">Yahoo</option>
+                <option value="MSN">MSN</option>
+            </optgroup>
+        </select>
+
+        <br>
+
+        <label for="comments">Comments:</label> <br>
+        <textarea name="comments" id="comments" cols="41" rows="5">
+
+        </textarea>
+
+        <br>
+    
+        <input type="hidden" name="emailMe" id="emailMe">
+        <button type="submit" value="Register">Register</button>
+
+        <button>Reset</button>
+
+    </form>
+</body>
+</html>
+
