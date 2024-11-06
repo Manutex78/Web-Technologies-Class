@@ -1,0 +1,28 @@
+
+
+.hero{
+    background-color: #000000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.headline{
+    font-size: 40px;
+}
+
+.paragraph{
+    max-width: 800px; 
+    min-height: 24px;
+}
+
+.image{
+    width: 1000px;
+}
+/*
+• Parágrafo:
+o Largura máxima: 800px
+o Altura de linha: 24px
+• Imagem
+o Largura: 1000px
+*/
