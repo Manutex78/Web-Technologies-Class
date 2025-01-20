@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oxanium:wght@200..800&display=swap');
+
+@import url("./reset.css");
+
+body{
+    font-family: "Inter";
+}
+
+.card{
+    margin: 50px;
+    position: relative;
+    width: fit-content;
+}
+
+.card-image{
+    width: 312px;
+    height: 312px;
+}
+.card-row{
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-name{
+    color: #007588;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+.card-price{
+    font-size:18px ;
+    font-weight: ;
+}
+
+.card-btn{
+    background-color: #029fae;
+    border-radius: 8px;
+    width: 44px;
+    height: 44px;
+}
+
+.card-icon{
+    color:#fff;
+}
+
+.card-label{
+    position: absolute;
+    top:20px;
+    left: 20px;
+
+    
+}
